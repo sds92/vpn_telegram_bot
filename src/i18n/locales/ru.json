@@ -1,0 +1,55 @@
+{
+  "welcome": "ShieldVPN — VPN для России\n\n• VLESS + Reality — обход блокировок и DPI\n• Автопереключение при блокировке IP\n• iOS / Android / Windows / macOS\n\nВыберите действие в меню.",
+  "menu": {
+    "cabinet": "Личный кабинет",
+    "configs": "Мой VPN",
+    "plans": "Тарифы",
+    "support": "Поддержка",
+    "instructions": "Инструкции",
+    "client": "Скачать клиент",
+    "back": "Назад"
+  },
+  "cabinet": {
+    "title": "Личный кабинет",
+    "statusActive": "Статус: активен",
+    "statusInactive": "Статус: нет подписки",
+    "node": "Нода: %s",
+    "traffic": "Трафик: %s",
+    "username": "Username: @%s"
+  },
+  "configs": {
+    "empty": "Активная подписка не найдена.\nОформите тариф через «Тарифы» или напишите в поддержку.",
+    "ready": "Конфиг готов\n\nНода: %s\nПротокол: VLESS + Reality\n\n%s\n\nСкопируйте ссылку в ShieldVPN, Hiddify или v2rayNG.",
+    "fallbacks": "Резервные ноды: %s",
+    "btnQr": "QR-код",
+    "btnCopy": "Показать ссылку",
+    "qrCaption": "Отсканируйте QR в Hiddify / v2rayNG / ShieldVPN."
+  },
+  "plans": {
+    "title": "Тарифы ShieldVPN",
+    "item": "• %s — %s ₽ / %s дн. (%s)",
+    "unlimited": "∞",
+    "empty": "Тарифы временно недоступны.",
+    "footer": "Для оплаты напишите в поддержку."
+  },
+  "clients": {
+    "title": "Клиенты для VLESS (Reality):",
+    "hiddify": "Hiddify (рекомендуется)",
+    "v2rayng": "v2rayNG (Android)",
+    "nekoray": "Nekoray (ПК)",
+    "shield": "ShieldVPN (наше приложение)"
+  },
+  "support": {
+    "line": "Поддержка: @%s",
+    "none": "Поддержка не настроена. Укажите TELEGRAM_SUPPORT_USERNAME."
+  },
+  "instructions": {
+    "title": "Подключение ShieldVPN (VLESS Reality)",
+    "steps": "1. Оформите тариф и откройте «Мой VPN».\n2. Установите клиент («Скачать клиент»).\n3. Импорт: QR или ссылка vless://\n4. Включите подключение в приложении."
+  },
+  "errors": {
+    "banned": "Ваш аккаунт заблокирован.",
+    "generic": "Что-то пошло не так. Попробуйте позже.",
+    "noConfig": "Не удалось получить конфиг. Проверьте подписку."
+  }
+}

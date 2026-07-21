@@ -1,6 +1,14 @@
-FROM python:3.12-slim
+FROM node:20-alpine
+
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+
+COPY package*.json ./
+RUN npm ci
+
 COPY . .
-CMD ["python", "bot.py"]
+RUN npm run build
+RUN npm prune --production
+
+ENV NODE_ENV=production
+
+CMD ["node", "dist/index.js"]

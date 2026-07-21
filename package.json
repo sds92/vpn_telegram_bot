@@ -1,0 +1,35 @@
+{
+  "name": "vpn-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for ShieldVPN",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc && node -e \"require('fs').cpSync('src/i18n/locales', 'dist/i18n/locales', {recursive:true})\"",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [
+    "vpn",
+    "telegram",
+    "bot"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "i18n": "^0.15.3",
+    "qrcode": "^1.5.3",
+    "telegraf": "^4.15.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/i18n": "^0.13.12",
+    "@types/node": "^20.10.5",
+    "@types/qrcode": "^1.5.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

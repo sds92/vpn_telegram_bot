@@ -1,0 +1,55 @@
+{
+  "welcome": "ShieldVPN — VPN for Russia\n\n• VLESS + Reality — bypass blocks and DPI\n• Auto-failover when an IP is blocked\n• iOS / Android / Windows / macOS\n\nChoose an action from the menu.",
+  "menu": {
+    "cabinet": "Dashboard",
+    "configs": "My VPN",
+    "plans": "Plans",
+    "support": "Support",
+    "instructions": "Instructions",
+    "client": "Download client",
+    "back": "Back"
+  },
+  "cabinet": {
+    "title": "Dashboard",
+    "statusActive": "Status: active",
+    "statusInactive": "Status: no subscription",
+    "node": "Node: %s",
+    "traffic": "Traffic: %s",
+    "username": "Username: @%s"
+  },
+  "configs": {
+    "empty": "No active subscription found.\nPick a plan under «Plans» or contact support.",
+    "ready": "Config ready\n\nNode: %s\nProtocol: VLESS + Reality\n\n%s\n\nPaste the link into ShieldVPN, Hiddify, or v2rayNG.",
+    "fallbacks": "Fallback nodes: %s",
+    "btnQr": "QR code",
+    "btnCopy": "Show link",
+    "qrCaption": "Scan the QR in Hiddify / v2rayNG / ShieldVPN."
+  },
+  "plans": {
+    "title": "ShieldVPN plans",
+    "item": "• %s — %s RUB / %s days (%s)",
+    "unlimited": "∞",
+    "empty": "Plans are temporarily unavailable.",
+    "footer": "To pay, message support."
+  },
+  "clients": {
+    "title": "Clients for VLESS (Reality):",
+    "hiddify": "Hiddify (recommended)",
+    "v2rayng": "v2rayNG (Android)",
+    "nekoray": "Nekoray (desktop)",
+    "shield": "ShieldVPN (our app)"
+  },
+  "support": {
+    "line": "Support: @%s",
+    "none": "Support is not configured. Set TELEGRAM_SUPPORT_USERNAME."
+  },
+  "instructions": {
+    "title": "Connect ShieldVPN (VLESS Reality)",
+    "steps": "1. Get a plan and open «My VPN».\n2. Install a client («Download client»).\n3. Import via QR or vless:// link.\n4. Enable the connection in the app."
+  },
+  "errors": {
+    "banned": "Your account is banned.",
+    "generic": "Something went wrong. Try again later.",
+    "noConfig": "Could not fetch config. Check your subscription."
+  }
+}
